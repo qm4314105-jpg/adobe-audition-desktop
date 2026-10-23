@@ -1,0 +1,8 @@
+# Default behavior
+# Text file normalization
+# Project-specific overrides
+*.htm linguist-vendored
+package-lock.json linguist-generated
+
+src/** linguist-detectable
+*.yaml linguist-detectable=false
